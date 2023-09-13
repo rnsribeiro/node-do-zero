@@ -40,3 +40,13 @@ instalar a extensão dotenv no vscode
 
 instalar a biblioteca dotenv
 npm install dotenv -D
+
+Criar um repositório no github
+node-do-zero
+
+Inicializar o diretório na maquina local
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:rnsribeiro/node-do-zero.git
+git push origin master

@@ -1,0 +1,42 @@
+Crie um diretorio e inicialize o code:
+code .
+
+Inicialize as configuracoes padroes do node:
+npm init -y
+
+Intales os pacotes:
+yarn
+
+Execute o server:
+node server.js
+
+Para naun ficar finalizando e iniciando o server a cada alteracao:
+node --watch server.js
+
+Para naun ficar exibindo mensagem de avisos no terminal:
+node --watch --no-warnings server.js
+
+Para facilitar a execucao no arquivo package.json abaixo de "start" insira a seguinte linha:
+"dev": "node --watch --no-warnings server.js"
+
+Apos as alteracoes execute o seguinte instrucao no terminal:
+npm run dev 
+ou 
+yarn run dev
+
+Instalando dependência para o postgresql
+npm install fastify
+
+para realizar as requisições é necessário instalar a extensão no vscode
+Rest Client
+
+Depois criar arquivo
+routes.http
+
+Instalar o postgres
+npm install postgres
+
+instalar a extensão dotenv no vscode
+
+instalar a biblioteca dotenv
+npm install dotenv -D
